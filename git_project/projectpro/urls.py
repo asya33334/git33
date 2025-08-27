@@ -9,6 +9,10 @@ from . import views # импортируем из ЭТОЙ ЖЕ ПАПКИ ПР�
 
 urlpatterns = [
     path ('', views.index, name="projectpro"),
+    path ('about/', views.about, name="about")
 ]
+
+
+
 
 
